@@ -47,7 +47,7 @@ gulp.task('sass', function(){
 
 gulp.task('css-libs', function(){
 	return gulp.src([
-			'app/libs/normalize-css/normalize.css',
+			'app/libs/normalize-css/normalize.css'
 			//'app/libs/magnific-popup/dist/magnific-popup.css',
 			//'app/libs/owl.carousel/dist/assets/owl.carousel.min.css',
 			//'app/libs/owl.carousel/dist/assets/owl.theme.default.min.css',
@@ -63,7 +63,7 @@ gulp.task('css-libs', function(){
 gulp.task('js-libs', function(){
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.slim.min.js',
-		'app/libs/device.js/lib/device.min.js',
+		'app/libs/device.js/lib/device.min.js'
 		//'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
 		//'app/libs/owl.carousel/dist/owl.carousel.js',
 		//'app/libs/bootstrap/bootstrap.min.js'
