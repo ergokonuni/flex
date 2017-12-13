@@ -18,18 +18,18 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch; }
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .container {
   width: 82%;
@@ -64,10 +64,10 @@ a {
 h1 {
   font-family: inherit;
   font-size: 3.5em;
-  line-height: 1.5;
+  line-height: 1;
   font-weight: 500;
   padding: 0;
-  margin: .3em 0; }
+  margin: 0 0 .3em 0; }
 
 h2 {
   font-family: inherit;
@@ -148,16 +148,13 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.25);
   background-color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  -webkit-box-ordinal-group: 6;
-      -ms-flex-order: 5;
-          order: 5; }
+          user-select: none; }
   .header .container {
     position: relative;
     min-height: 100%; }
@@ -169,13 +166,9 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.25);
   background-color: #333;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   -webkit-box-ordinal-group: 101;
       -ms-flex-order: 100;
           order: 100; }
@@ -191,17 +184,15 @@ hr {
     .footer a:hover {
       text-decoration: none; }
 
-.content {
-  padding: 0 !important;
-  -webkit-box-flex: 100;
-      -ms-flex: 100 1 auto;
-          flex: 100 1 auto;
-  -webkit-box-ordinal-group: 11;
-      -ms-flex-order: 10;
-          order: 10; }
-  .content img {
+.midder {
+  border-top: 3.2em solid transparent;
+  border-bottom: 3.2em solid transparent;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #330000; }
+  .midder img {
     max-width: 100%; }
-  .content table {
+  .midder table {
     max-width: 100%; }
 
 @media only screen and (min-width: 300px) {
