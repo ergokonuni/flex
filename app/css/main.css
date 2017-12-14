@@ -200,6 +200,13 @@ hr {
   .content table {
     max-width: 100%; }
 
+.main {
+  min-height: 100%;
+  background-color: #003300; }
+  .main .container {
+    min-height: 100%;
+    background-color: #000033; }
+
 .sidebar {
   border-top: 3.2em solid transparent;
   border-bottom: 3.2em solid transparent;
@@ -212,7 +219,8 @@ hr {
           flex: 1 1 auto;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
-          order: 1; }
+          order: 1;
+  display: none; }
 
 @media only screen and (min-width: 300px) {
   html {
