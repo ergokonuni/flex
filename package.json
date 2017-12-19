@@ -1,5 +1,5 @@
 {
-  "name": "start",
+  "name": "flex",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -35,10 +35,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ergokonuni/start.git"
+    "url": "git+https://github.com/ergokonuni/flex.git"
   },
   "bugs": {
-    "url": "https://github.com/ergokonuni/start/issues"
+    "url": "https://github.com/ergokonuni/flex/issues"
   },
-  "homepage": "https://github.com/ergokonuni/start#readme"
+  "homepage": "https://github.com/ergokonuni/flex#readme"
 }
